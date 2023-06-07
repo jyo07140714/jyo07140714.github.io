@@ -1,15 +1,15 @@
 # Site Settings
-lang: en
-title: Bulma Clean Theme
-tagline: Bulma Clean Theme
-email: your-email@domain.com
+lang: ja
+title: joichiサイト
+tagline: joichi
+email:
 description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
+  joichiサイトのウェブサイト
 baseurl: ""
 url: ""
 permalink: pretty
 #favicon: /path/to/favicon.png
-gh_sponsor: chrisrhymes
+#gh_sponsor:
 #hide_share_buttons: true
 #theme_color: '#eeeeee'
 #fixed_navbar: top
@@ -23,7 +23,7 @@ disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   # shortname: my_disqus_shortname
-  shortname: csrhymes
+  # shortname: csrhymes
 
 remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
@@ -64,9 +64,9 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "joichi"
       layout: post
-      image: https://via.placeholder.com/1200x800
+      image:
       show_sidebar: true
 
 markdown: kramdown
@@ -78,5 +78,5 @@ collections:
   products: 
     output: true
     layout: product
-    image: https://via.placeholder.com/800x600
+    image:
     show_sidebar: false
